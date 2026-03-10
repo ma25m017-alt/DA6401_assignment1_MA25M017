@@ -1,0 +1,19 @@
+{
+  "dataset": "mnist",
+  "epochs": 10,
+  "batch_size": 32,
+  "loss": "cross_entropy",
+  "optimizer": "nag",
+  "learning_rate": 0.01,
+  "weight_decay": 0.0001,
+  "num_layers": 3,
+  "hidden_size": [
+    128,
+    128,
+    64
+  ],
+  "activation": "relu",
+  "weight_init": "xavier",
+  "wandb_project": "DA6401_A1_Mousumi",
+  "model_path": "best_model.npy"
+}
